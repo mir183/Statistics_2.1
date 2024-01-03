@@ -1,0 +1,47 @@
+# Relationship Between Arithmetic Mean, Geometric Mean, and Harmonic Mean
+
+Arithmetic Mean (AM), Geometric Mean (GM), and Harmonic Mean (HM) are three fundamental measures of central tendency used in statistics. Each of them provides insights into different aspects of a dataset.
+
+## Arithmetic Mean (AM)
+
+The arithmetic mean is the most commonly used measure of central tendency. It is calculated by summing up all values in a dataset and dividing by the number of values.
+
+**Formula:**
+\[ AM = \frac{1}{n} \sum_{i=1}^{n} x_i \]
+
+## Geometric Mean (GM)
+
+The geometric mean is used for datasets with positive values, especially in situations involving growth rates, ratios, or compound interest. It is calculated by taking the nth root of the product of all values.
+
+**Formula:**
+\[ GM = \sqrt[n]{x_1 \cdot x_2 \cdot \ldots \cdot x_n} \]
+
+## Harmonic Mean (HM)
+
+The harmonic mean is used when dealing with rates and ratios, particularly in scenarios like speed or time-based calculations. It is calculated by taking the reciprocal of the arithmetic mean of the reciprocals.
+
+**Formula:**
+\[ HM = \frac{n}{\frac{1}{x_1} + \frac{1}{x_2} + \ldots + \frac{1}{x_n}} \]
+
+## Relationship
+
+1. **Inequality:**
+   \[ AM \geq GM \geq HM \]
+   The arithmetic mean is always greater than or equal to the geometric mean, which is always greater than or equal to the harmonic mean.
+
+2. **Equality Case:**
+   If all values in the dataset are equal, then AM, GM, and HM will be equal.
+
+3. **AM-GM Inequality Theorem:**
+   For any set of positive real numbers, the arithmetic mean is greater than or equal to the geometric mean. The equality holds only when all numbers are equal.
+
+   \[ AM \geq GM \]
+   
+   **Example:**
+   \[ \frac{x_1 + x_2}{2} \geq \sqrt{x_1 \cdot x_2} \]
+   
+   The AM-GM Inequality is a fundamental concept used in various mathematical proofs.
+
+Understanding the relationships between these measures can provide valuable insights into the characteristics of a dataset and their applications in different contexts.
+
+Remember that each mean has its own strengths and weaknesses, and the choice of which to use depends on the nature of the data and the specific requirements of the analysis.

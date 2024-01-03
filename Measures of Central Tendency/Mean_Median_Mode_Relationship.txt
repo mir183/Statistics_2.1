@@ -1,0 +1,47 @@
+# Relationship Between Mean, Median, and Mode
+
+Mean, Median, and Mode are three important measures of central tendency that provide insights into the center of a dataset. Each of them characterizes different aspects of the distribution.
+
+## Mean
+
+The mean, also known as the average, is the sum of all values in a dataset divided by the number of values. It is a common measure used to represent the central value.
+
+**Formula:**
+\[ \text{Mean (}\bar{x}\text{)} = \frac{1}{n} \sum_{i=1}^{n} x_i \]
+
+## Median
+
+The median is the middle value in a sorted or ordered dataset. It is not influenced by extreme values (outliers) and provides a robust measure of central tendency.
+
+**Calculation:**
+1. Arrange the data in ascending order.
+2. If the number of observations (\(n\)) is odd, the median is the middle value.
+3. If \(n\) is even, the median is the average of the two middle values.
+
+## Mode
+
+The mode is the value that appears most frequently in a dataset. A dataset can have one mode (unimodal), more than one mode (multimodal), or no mode at all.
+
+**Calculation:**
+1. Identify the frequency of each value.
+2. The value(s) with the highest frequency is the mode.
+
+## Relationship
+
+1. **Symmetry:**
+   - For a perfectly symmetrical distribution, the mean, median, and mode are equal.
+   - In a skewed distribution, the mean is typically pulled in the direction of the skewness, and the median is less affected.
+
+2. **Skewness:**
+   - In a positively skewed distribution (tail on the right), the mean is greater than the median.
+   - In a negatively skewed distribution (tail on the left), the mean is less than the median.
+
+3. **Outliers:**
+   - Outliers can strongly influence the mean but have minimal impact on the median and mode.
+
+4. **Multimodal Distributions:**
+   - In multimodal distributions, where there are multiple modes, the mean may not accurately represent the central tendency.
+
+Understanding the relationships between mean, median, and mode helps in interpreting the distribution of data and choosing appropriate measures for analysis.
+
+Remember that each measure has its strengths and limitations, and the choice depends on the nature of the data and the goals of the analysis.
